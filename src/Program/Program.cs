@@ -27,7 +27,6 @@ namespace Full_GRASP_And_SOLID
             recipe.AddStep(new Step(GetProduct("Leche"), 200, GetEquipment("Hervidor"), 60));
             recipe.PrintRecipe();
         }
-
         private static void PopulateCatalogs()
         {
             AddProductToCatalog("Café", 100);
